@@ -1,0 +1,25 @@
+body { 
+    background: url(../images/modal-background.PNG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#navBar {
+    background-color: rgba(37, 22, 117, 0.4);
+    /* opacity: 40%; */
+}
+
+
+.btn {
+    border-radius: 25px;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: blue;
+}
+
+/* #buttons {
+    margin-right: 4%;
+} */
