@@ -7,7 +7,9 @@ body {
 }
 
 .wrap {
-    background-color: rgba(37, 22, 117, 0.4);
+
+
+    /* background-color: rgba(37, 22, 117, 0.4); */
     width: 100%;
 }
 
@@ -17,21 +19,29 @@ body {
     margin-right: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
-    background: rgb(20, 20, 119);
-    background-image: linear-gradient(to right, rgb(20, 20, 119) 0%,  rgb(0, 0, 148) 20%, rgb(20, 20, 119) 40%, rgb(20, 20, 119) 100%);
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: relative; 
+    background-image: url(../images/rainbowButton.gif);
+    background-size: 300px;
+    width: 80px;
+    height: 40px;
 
-	text-decoration: none;
-	color: rgb(95, 106, 255);
+
+    
+
+    justify-content: center;
+
+
+	color: rgb(142, 0, 170);
 	font-size: 15px;
-	font-family: sans-serif;
-    font-weight: 100;
+	font-family: 'Miltonian Tattoo', cursive;
+    font-weight: 900;
+    font-size: 18px;
     transition: background 1s, transform 0.5s ease;
 }
 
-.shimmer1 {
+/* .shimmer1 {
+
+background-image: linear-gradient(to right, rgb(20, 20, 119) 0%,  rgb(0, 0, 148) 20%, rgb(20, 20, 119) 40%, rgb(20, 20, 119) 100%);
+
     -webkit-animation-duration: 2s;
     -webkit-animation-fill-mode: backwards; 
     -webkit-animation-iteration-count: infinite;
@@ -65,15 +75,15 @@ body {
     -webkit-animation-name: placeholderShimmer;
     -webkit-animation-timing-function: cubic-bezier(0.6, 0, 0.6, 0);
     width: 100px;
-}
+} */
 
 .btn:hover {
 
-    transform: matrix(1.5);
+    transform: scale(1.2, 1.2);
 
-    color: rgb(146, 153, 255);
-    background: rgb(12, 12, 100);
-    background-image: 
+    color: rgb(183, 0, 230);
+    background: linear-gradient(rgb(12, 12, 100), rgb(27, 27, 170));
+
 
 }
 
