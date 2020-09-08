@@ -17,17 +17,75 @@ body {
     margin-right: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
-    background-image: linear-gradient( rgb(10, 10, 56), rgb(0, 0, 148));
-    width: 100px;
+    background: rgb(20, 20, 119);
+    background-image: linear-gradient(to right, rgb(20, 20, 119) 0%,  rgb(0, 0, 148) 20%, rgb(20, 20, 119) 40%, rgb(20, 20, 119) 100%);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative; 
 
 	text-decoration: none;
-	color: #fff;
+	color: rgb(95, 106, 255);
 	font-size: 15px;
 	font-family: sans-serif;
-	font-weight: 100;
+    font-weight: 100;
+    transition: background 1s, transform 0.5s ease;
 }
 
-  
+.shimmer1 {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: backwards; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+    width: 100px;
+}
+
+.shimmer2 {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: backwards; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: cubic-bezier(0.2, -0.6, 0, 1);
+    width: 100px;
+}
+
+.shimmer3 {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: backwards; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 1, 1);
+    width: 100px;
+}
+
+.shimmer4 {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: backwards; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: cubic-bezier(0.6, 0, 0.6, 0);
+    width: 100px;
+}
+
+.btn:hover {
+
+    transform: matrix(1.5);
+
+    color: rgb(146, 153, 255);
+    background: rgb(12, 12, 100);
+    background-image: 
+
+}
+
+@-webkit-keyframes placeholderShimmer {
+    0% {
+      background-position: -468px 0;
+    }
+    
+    100% {
+      background-position: 468px 0; 
+    }
+  }
 
    
 
@@ -38,7 +96,7 @@ body {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     #navBar {
         background: transparent;
     }
