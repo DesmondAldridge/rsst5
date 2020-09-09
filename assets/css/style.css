@@ -23,7 +23,7 @@ body {
 	font-family: 'Miltonian Tattoo', cursive;
     font-weight: 900;
     font-size: 18px;
-    color: rgb(83, 9, 179);
+    color: rgb(3, 49, 175);
 
     border-radius: 25px;
     margin-right: 2%;
@@ -38,7 +38,22 @@ body {
 }
 
 #brandDiv {
-    justify-content: center;
+
+    position: fixed;
+    font-family: 'Geostar Fill', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+
+    background: -webkit-linear-gradient(rgb(18, 18, 143), rgb(83, 83, 238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 8px;
+    padding-left: 2%;
+    
+
+}
+
+#rsst5 {
     font-size: 50px;
     font-weight: bolder;
 }
@@ -115,7 +130,7 @@ background-image: linear-gradient(to right, rgb(20, 20, 119) 0%,  rgb(0, 0, 148)
 
     transform: scale(1.2, 1.2);
 
-    color: rgb(100, 11, 216);
+    color: rgb(153, 0, 255);
     background: linear-gradient(rgb(12, 12, 100), rgb(27, 27, 170));
 
 
@@ -140,8 +155,8 @@ background-image: linear-gradient(to right, rgb(20, 20, 119) 0%,  rgb(0, 0, 148)
 
 
 
-@media only screen and (max-width: 600px) {
-    #navBar {
+@media only screen and (max-width: 375px) {
+    .wrap {
         background: transparent;
     }
 }
