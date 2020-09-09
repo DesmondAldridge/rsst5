@@ -13,30 +13,63 @@ body {
     width: 100%;
 }
 
+.wrap {
+    background-image: linear-gradient(rgb(29, 63, 216, 0.1), rgb(29, 63, 216, 0.3));
+}
 
 .btn {
-    border-radius: 25px;
-    margin-right: 2%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    background-image: url(../images/sparkling-black.gif);
-    background-size: 250px;
-    width: 80px;
-    height: 40px;
 
-	color: rgb(83, 9, 179);
 	font-size: 15px;
 	font-family: 'Miltonian Tattoo', cursive;
     font-weight: 900;
     font-size: 18px;
+    color: rgb(83, 9, 179);
+
+    border-radius: 25px;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 80px;
+    height: 40px;
+    background-size: 250px;
+    background-image: url(../images/sparkling-black.gif);
     transition: background 1s, transform 0.5s ease;
+
 }
 
-h1{
-    background: -webkit-linear-gradient(rgb(83, 9, 179), rgb(160, 82, 250));
+#brandDiv {
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#h1-1 {
+    background: -webkit-linear-gradient(indigo, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#h1-2 {
+    background: -webkit-linear-gradient(blue, cadetblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#h1-3 {
+    background: -webkit-linear-gradient(green, lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#h1-4 {
+    background: -webkit-linear-gradient(yellow, lightyellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#h1-5 {
+    background: -webkit-linear-gradient(red, coral);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 
 /* .shimmer1 {
@@ -82,7 +115,7 @@ background-image: linear-gradient(to right, rgb(20, 20, 119) 0%,  rgb(0, 0, 148)
 
     transform: scale(1.2, 1.2);
 
-    color: rgb(183, 0, 230);
+    color: rgb(100, 11, 216);
     background: linear-gradient(rgb(12, 12, 100), rgb(27, 27, 170));
 
 
