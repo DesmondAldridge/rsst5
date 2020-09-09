@@ -37,6 +37,10 @@ body {
 
 }
 
+#buttonDiv {
+    margin-right: 2%;
+}
+
 #brandDiv {
 
     position: fixed;
@@ -50,13 +54,8 @@ body {
     padding: 8px;
     padding-left: 2%;
     
-
 }
 
-#rsst5 {
-    font-size: 50px;
-    font-weight: bolder;
-}
 
 #h1-1 {
     background: -webkit-linear-gradient(indigo, violet);
@@ -146,17 +145,16 @@ background-image: linear-gradient(to right, rgb(20, 20, 119) 0%,  rgb(0, 0, 148)
     }
   }
 
-   
 
-
-#buttonDiv {
-    margin-right: 2%;
+@media only screen and (max-width: 1600px) {
+    #brandDiv{
+        visibility: hidden;
+    }
 }
-
-
 
 @media only screen and (max-width: 375px) {
     .wrap {
         background: transparent;
     }
 }
+
