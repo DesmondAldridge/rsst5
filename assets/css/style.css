@@ -19,24 +19,25 @@ body {
     margin-right: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
-    background-image: url(../images/rainbowButton.gif);
-    background-size: 300px;
+    background-image: url(../images/sparkling-black.gif);
+    background-size: 250px;
     width: 80px;
     height: 40px;
 
-
-    
-
-    justify-content: center;
-
-
-	color: rgb(142, 0, 170);
+	color: rgb(83, 9, 179);
 	font-size: 15px;
 	font-family: 'Miltonian Tattoo', cursive;
     font-weight: 900;
     font-size: 18px;
     transition: background 1s, transform 0.5s ease;
 }
+
+h1{
+    background: -webkit-linear-gradient(rgb(83, 9, 179), rgb(160, 82, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 /* .shimmer1 {
 
