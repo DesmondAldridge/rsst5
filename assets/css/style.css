@@ -233,10 +233,39 @@ margin-left: 14%;
 
     #titleDiv {
         font-size: 25px;
+        margin-left: 8%;
+    }
+
+    #coverPhoto {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    #titleDiv {
+        font-size: 25px;
         margin-left: 6%;
     }
 
     #coverPhoto {
         margin-left: 18%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+
+    #titleDiv {
+        font-size: 20px;
+        margin-left: 6%;
+    }
+
+    #coverPhoto {
+        margin-left: 15%;
+    }
+
+    #buttonDiv {
+        position: absolute;
+        visibility: hidden;
     }
 }
