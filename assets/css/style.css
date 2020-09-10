@@ -7,14 +7,8 @@ body {
 }
 
 .wrap {
-
-
-    /* background-color: rgba(37, 22, 117, 0.4); */
-    width: 100%;
-}
-
-.wrap {
     background-image: linear-gradient(rgb(29, 63, 216, 0.1), rgb(29, 63, 216, 0.3));
+    width: 100%;
 }
 
 .btn {
@@ -41,7 +35,7 @@ body {
     margin-right: 2%;
 }
 
-#brandDiv {
+.titleLogo {
 
     position: fixed;
     font-family: 'Anton', sans-serif;
@@ -100,23 +94,23 @@ body {
 
 }
 
-#coverPhoto {
-margin: 8%;
-
+#titleDiv {
+    margin-left: 15%;
+    position: fixed;
 }
 
+#coverPhoto {
+margin: 8%;
+margin-left: 14%;
+}
+
+/*MEDIA QUERIES*/
 @media only screen and (max-width: 1200px) {
     #brandDiv{
         visibility: hidden;
     }
 }
 
-@media only screen and (max-width: 500px) {
-    #rsst5 {
-        position: absolute;
-        visibility: hidden;
-    }
-}
 
 @media only screen and (max-width: 375px) {
     .wrap {
@@ -124,4 +118,125 @@ margin: 8%;
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    #titleDiv {
+        visibility: hidden;
+    }
+}
 
+@media only screen and (max-width: 1070px) {
+
+    #titleDiv {
+        margin-left: 14%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    #titleDiv {
+        font-size: 48px;
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 865px) {
+
+    #titleDiv {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    #titleDiv {
+        margin-left: 8%;
+    }
+}
+
+@media only screen and (max-width: 726px) {
+
+    #titleDiv {
+        margin-left: 6%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    #titleDiv {
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 683px) {
+
+    #titleDiv {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+
+    #titleDiv {
+        margin-left: 0%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #titleDiv {
+        font-size: 45px;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    #titleDiv {
+        font-size: 40px;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+
+    #titleDiv {
+        font-size: 37px;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 474px) {
+
+    #titleDiv {
+        font-size: 35px;
+        margin-left: 2%;
+    }
+
+    #rsst5 {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    #titleDiv {
+        font-size: 30px;
+        margin-left: 2%;
+    }
+
+}
+
+
+@media only screen and (max-width: 390px) {
+
+    #titleDiv {
+        font-size: 25px;
+        margin-left: 6%;
+    }
+
+    #coverPhoto {
+        margin-left: 18%;
+    }
+}
