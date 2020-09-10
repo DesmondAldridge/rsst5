@@ -1,9 +1,9 @@
 body { 
-    background: url(../images/modal-background-1.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
+    background: url(../images/galaxy-bgd.jpg); /*no-repeat center center fixed*/
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .wrap {
@@ -23,7 +23,7 @@ body {
 	font-family: 'Miltonian Tattoo', cursive;
     font-weight: 900;
     font-size: 18px;
-    color: rgb(3, 49, 175);
+    color: rgb(123, 0, 172);
 
     border-radius: 25px;
     margin-right: 2%;
@@ -44,11 +44,11 @@ body {
 #brandDiv {
 
     position: fixed;
-    font-family: 'Geostar Fill', cursive;
+    font-family: 'Anton', sans-serif;
     font-size: 50px;
     font-weight: bolder;
 
-    background: -webkit-linear-gradient(rgb(18, 18, 143), rgb(83, 83, 238));
+    background: -webkit-linear-gradient(rgb(83, 83, 83), rgb(158, 158, 158), rgb(255, 255, 255), rgb(163, 0, 163));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 8px;
@@ -56,6 +56,13 @@ body {
     
 }
 
+#rsst5 {
+    font-size: 35px;
+    word-spacing: -15px;
+    font-weight: bolder;
+    margin-right: 2%;
+    margin-top: 1.2%;
+}
 
 #h1-1 {
     background: -webkit-linear-gradient(indigo, violet);
@@ -84,47 +91,6 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-
-
-/* .shimmer1 {
-
-background-image: linear-gradient(to right, rgb(20, 20, 119) 0%,  rgb(0, 0, 148) 20%, rgb(20, 20, 119) 40%, rgb(20, 20, 119) 100%);
-
-    -webkit-animation-duration: 2s;
-    -webkit-animation-fill-mode: backwards; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-name: placeholderShimmer;
-    -webkit-animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
-    width: 100px;
-}
-
-.shimmer2 {
-    -webkit-animation-duration: 2s;
-    -webkit-animation-fill-mode: backwards; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-name: placeholderShimmer;
-    -webkit-animation-timing-function: cubic-bezier(0.2, -0.6, 0, 1);
-    width: 100px;
-}
-
-.shimmer3 {
-    -webkit-animation-duration: 2s;
-    -webkit-animation-fill-mode: backwards; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-name: placeholderShimmer;
-    -webkit-animation-timing-function: cubic-bezier(1, 0, 1, 1);
-    width: 100px;
-}
-
-.shimmer4 {
-    -webkit-animation-duration: 2s;
-    -webkit-animation-fill-mode: backwards; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-name: placeholderShimmer;
-    -webkit-animation-timing-function: cubic-bezier(0.6, 0, 0.6, 0);
-    width: 100px;
-} */
-
 .btn:hover {
 
     transform: scale(1.2, 1.2);
@@ -132,21 +98,10 @@ background-image: linear-gradient(to right, rgb(20, 20, 119) 0%,  rgb(0, 0, 148)
     color: rgb(153, 0, 255);
     background: linear-gradient(rgb(12, 12, 100), rgb(27, 27, 170));
 
-
 }
 
-@-webkit-keyframes placeholderShimmer {
-    0% {
-      background-position: -468px 0;
-    }
-    
-    100% {
-      background-position: 468px 0; 
-    }
-  }
 
-
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1200px) {
     #brandDiv{
         visibility: hidden;
     }
