@@ -57,36 +57,36 @@ body {
 }
 
 #rsst5 {
-    font-size: 35px;
+    font-size: 30px;
     word-spacing: -15px;
     font-weight: bolder;
     margin-right: 2%;
-    margin-top: 1.2%;
+    margin-top: 1.5%;
 }
 
 #h1-1 {
-    background: -webkit-linear-gradient(indigo, violet);
+    background: -webkit-linear-gradient(rgb(94, 2, 160), rgb(255, 153, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 #h1-2 {
-    background: -webkit-linear-gradient(blue, cadetblue);
+    background: -webkit-linear-gradient(rgb(7, 7, 255), rgb(150, 225, 228));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #h1-3 {
-    background: -webkit-linear-gradient(green, lightgreen);
+    background: -webkit-linear-gradient(rgb(0, 117, 0), rgb(156, 245, 156));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #h1-4 {
-    background: -webkit-linear-gradient(yellow, lightyellow);
+    background: -webkit-linear-gradient(rgb(163, 163, 0), rgb(255, 255, 180));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #h1-5 {
-    background: -webkit-linear-gradient(red, coral);
+    background: -webkit-linear-gradient(rgb(148, 0, 0), rgb(255, 142, 142));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -100,9 +100,20 @@ body {
 
 }
 
+#coverPhoto {
+margin: 8%;
+
+}
 
 @media only screen and (max-width: 1200px) {
     #brandDiv{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #rsst5 {
+        position: absolute;
         visibility: hidden;
     }
 }
@@ -112,4 +123,5 @@ body {
         background: transparent;
     }
 }
+
 
