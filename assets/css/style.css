@@ -11,30 +11,6 @@ body {
     width: 100%;
 }
 
-.btn {
-
-	font-size: 15px;
-	font-family: 'Miltonian Tattoo', cursive;
-    font-weight: 900;
-    font-size: 18px;
-    color: rgb(123, 0, 172);
-
-    border-radius: 25px;
-    margin-right: 2%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 80px;
-    height: 40px;
-    background-size: 250px;
-    background-image: url(../images/sparkling-black.gif);
-    transition: background 1s, transform 0.5s ease;
-
-}
-
-#buttonDiv {
-    margin-right: 2%;
-}
-
 .titleLogo {
 
     position: fixed;
@@ -58,31 +34,55 @@ body {
     margin-top: 1.5%;
 }
 
-#h1-1 {
+#r-a {
     background: -webkit-linear-gradient(rgb(94, 2, 160), rgb(255, 153, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-#h1-2 {
+#s1-a {
     background: -webkit-linear-gradient(rgb(7, 7, 255), rgb(150, 225, 228));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#h1-3 {
+#s2-a {
     background: -webkit-linear-gradient(rgb(0, 117, 0), rgb(156, 245, 156));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#h1-4 {
+#t-a {
     background: -webkit-linear-gradient(rgb(163, 163, 0), rgb(255, 255, 180));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#h1-5 {
+#five-a {
     background: -webkit-linear-gradient(rgb(148, 0, 0), rgb(255, 142, 142));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#buttonDiv {
+    margin-right: 2%;
+}
+
+.btn {
+
+	font-size: 15px;
+	font-family: 'Miltonian Tattoo', cursive;
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(123, 0, 172);
+
+    border-radius: 25px;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 80px;
+    height: 40px;
+    background-size: 250px;
+    background-image: url(../images/sparkling-black.gif);
+    transition: background 1s, transform 0.5s ease;
+
 }
 
 .btn:hover {
@@ -94,15 +94,59 @@ body {
 
 }
 
+#mediaBtnDiv{
+    position: absolute;
+    visibility: hidden;
+    margin-left: 34%;
+}
+#mediaBtn {
+    font-size: 16px;
+}
+
 #titleDiv {
     margin-left: 15%;
     position: fixed;
 }
 
 #coverPhoto {
-margin: 8%;
+margin-top: 8%;
+margin-right: 8%;
 margin-left: 14%;
 }
+
+/* BACKUP BUTTONS */
+#buttonDiv2 {
+    position: absolute;
+    visibility: hidden;
+}
+
+#r-b {
+    background: -webkit-linear-gradient(rgb(94, 2, 160), rgb(255, 153, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#s1-b {
+    background: -webkit-linear-gradient(rgb(7, 7, 255), rgb(150, 225, 228));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#s2-b {
+    background: -webkit-linear-gradient(rgb(0, 117, 0), rgb(156, 245, 156));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#t-b {
+    background: -webkit-linear-gradient(rgb(163, 163, 0), rgb(255, 255, 180));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#five-b {
+    background: -webkit-linear-gradient(rgb(148, 0, 0), rgb(255, 142, 142));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 1200px) {
@@ -239,6 +283,11 @@ margin-left: 14%;
     #coverPhoto {
         margin-left: 20%;
     }
+
+    #mediaBtnDiv {
+        position: relative;
+        visibility: visible;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -267,5 +316,10 @@ margin-left: 14%;
     #buttonDiv {
         position: absolute;
         visibility: hidden;
+    }
+
+    #buttonDiv2 {
+        position: relative;
+        visibility: visible;
     }
 }
